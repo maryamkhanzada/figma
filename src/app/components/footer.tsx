@@ -1,3 +1,6 @@
+import React from 'react';
+import Image from 'next/image';
+
 const Footer = () => {
     return (
       <footer className="bg-[#043873]  text-white py-16 px-8">

@@ -7,10 +7,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center max-w-5xl w-full">
           {/* Left Content */}
           <div className="text-white md:pr-8  md:mb-0 flex-1">
-            <h1 className="text-4xl font-bold " style={{ width: '656px', height: '50px' }}>
+            <h1 className="text-4xl font-bold " style={{ width: "656px", height: "50px" }}>
             Get More Done with whitepace
             </h1>
-            <p className="text-gray-300 mb-6" style={{ width: '656px', height: '60px' }}>
+            <p className="text-gray-300 mb-6" style={{ width: "656px", height: "60px" }}>
               Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks.
             </p>
             <button
@@ -47,10 +47,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center max-w-5xl w-full">
           {/* Left Content */}
           <div className="text-black md:pr-8  md:mb-0 flex-1">
-            <h1 className="text-4xl font-bold " style={{ width: '656px', height: '50px' }}>
+            <h1 className="text-4xl font-bold " style={{ width: "656px", height: "50px" }}>
             Project Management
             </h1>
-            <p className="text-black mb-6" style={{ width: '656px', height: '60px' }}>
+            <p className="text-black mb-6" style={{ width: "656px", height: "60px" }}>
             Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
             </p>
             <button
@@ -118,10 +118,10 @@ export const Hero3 = () =>{
         <div className="flex flex-col md:flex-row items-center max-w-5xl w-full">
           {/* Left Content */}
           <div className="text-[#FFFFFF] md:pr-8  md:mb-0 flex-1">
-            <h1 className="text-4xl font-bold " style={{ width: '656px', height: '50px' }}>
+            <h1 className="text-4xl font-bold " style={{ width: "656px", height: "50px" }}>
             Use as Extension
             </h1>
-            <p className="text-[#FFFFFF] mb-6" style={{ width: '656px', height: '60px' }}>
+            <p className="text-[#FFFFFF] mb-6" style={{ width: "656px", height: "60px"}}>
             Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.
 
             </p>
@@ -221,11 +221,11 @@ export const Hero3 = () =>{
       <div className="flex flex-col md:flex-row items-center max-w-5xl w-full">
         {/* Left Content */}
         <div className="text-black md:pr-8  md:mb-0 flex-1">
-          <h1 className="text-5xl font-bold " style={{ width: '656px', height: '50px' }}>
+          <h1 className="text-5xl font-bold " style={{ width: "656px", height: "50px"}}>
           100% your data
           </h1>
           <br />
-          <p className="text-black mb-6" style={{ width: '656px', height: '60px' }}>
+          <p className="text-black mb-6" style={{ width: "656px", height: "60px" }}>
           The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
           </p>
           <br />
