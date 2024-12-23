@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 
@@ -12,17 +13,17 @@ const Card = () => {
         boost workplace productivity, Evernote has the right plan for you.
       </p>
       <div className="flex mt-8 gap-4">
-        <img
+        <Image
           src="/card.png"
           alt="card 1"
           className="w-1/3 h-auto"
         />
-        <img
+        <Image
           src="/card1.png"
           alt="Plan 2"
           className="w-1/3 h-auto"
         />
-        <img
+        <Image
           src="/price-board.png"
           alt="Plan 3"
           className="w-1/3 h-auto"
@@ -44,17 +45,17 @@ export default Card;
         What Our Clients Say
       </h1>
       <div className="flex justify-center gap-8">
-        <img
+        <Image
           src="/client1.png"
           alt="Client 1"
           className="w-40 h-auto rounded-lg shadow-lg"
         />
-        <img
+        <Image
           src="/client2.png"
           alt="Client 2"
           className="w-40 h-auto rounded-lg shadow-lg"
         />
-        <img
+        <Image
           src="/client.png"
           alt="Client 3"
           className="w-40 h-auto rounded-lg shadow-lg"

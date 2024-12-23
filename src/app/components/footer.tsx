@@ -18,9 +18,9 @@ const Footer = () => {
   
         {/* Flex Images */}
         <div className="flex justify-center gap-6 mb-16">
-          <img src="/apple-black-logo 2.png" alt="apple" className="w-20 h-20" />
-          <img src="/windows-logo 1.png" alt="windows" className="w-20 h-20" />
-          <img src="/android-logo 1.png" alt="android" className="w-20 h-20" />
+          <Image src="/apple-black-logo 2.png" alt="apple" className="w-20 h-20" />
+          <Image src="/windows-logo 1.png" alt="windows" className="w-20 h-20" />
+          <Image src="/android-logo 1.png" alt="android" className="w-20 h-20" />
         </div>
         <br />
         <br />

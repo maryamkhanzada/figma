@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import React from 'react';
 
 
@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-[#043873] p-4 flex items-center justify-between">
       
       <div className="flex items-center">
-        <img src="/logo Icon.png" alt="Logo" className="h-8 w-8" />
+        <Image src="/logo Icon.png" alt="Logo" className="h-8 w-8" />
         <span className="text-white ml-2">Whitespace</span>
       </div>
 
