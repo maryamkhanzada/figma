@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-[#043873] p-4 flex items-center justify-between">
       
       <div className="flex items-center">
-        <Image src="/logo Icon.png" alt="Logo" className="h-8 w-8" />
+      <Image src="/Logo Icon.png" alt="Logo Icon" layout="responsive" width={500} height={500} />
         <span className="text-white ml-2">Whitespace</span>
       </div>
 

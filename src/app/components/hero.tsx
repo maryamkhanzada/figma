@@ -265,35 +265,19 @@ export const Hero3 = () =>{
       <br />
       
       <div className="flex flex-wrap justify-center gap-10">
-        <img
-          src="/Apple.png"
-          alt="Apple"
-          className="w-70 h-auto"
-        />
+      <Image src="/Apple.png" alt="Apple Logo"  width={90} height={60} />
         <br />
         <br />
         <br />
-        <img
-          src="/microsoft 1.png"
-          alt="microsoft"
-          className="w-70 h-auto"
-        />
+        <Image src="/microsoft 1.png" alt="microsoft" width={140} height={130} />
         <br />
         <br />
         <br />
-        <img
-          src="/slack_Technologies_Logo 1.png"
-          alt="slack"
-          className="w-70 h-auto"
-        />
+        <Image src="/Slack_Technologies_Logo 1.png" alt="Slack_Technologies" width={140} height={130} />
         <br />
         <br />
         <br />
-        <img
-          src="/Group 246.png"
-          alt="Sponsor 4"
-          className="w-70 h-auto"
-        />
+        <Image src="/Group 246.png" alt="Group 246"  width={140} height={130} />
       </div>
     </div>
   );

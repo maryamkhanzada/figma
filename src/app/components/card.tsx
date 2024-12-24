@@ -13,21 +13,10 @@ const Card = () => {
         boost workplace productivity, Evernote has the right plan for you.
       </p>
       <div className="flex mt-8 gap-4">
-        <Image
-          src="/card.png"
-          alt="card 1"
-          className="w-1/3 h-auto"
-        />
-        <Image
-          src="/card1.png"
-          alt="Plan 2"
-          className="w-1/3 h-auto"
-        />
-        <Image
-          src="/price-board.png"
-          alt="Plan 3"
-          className="w-1/3 h-auto"
-        />
+      <Image src="/card.png" alt="Card Image"  width={260} height={180} />
+      <Image src="/card1.png" alt="Card1 Image"width={260} height={180} />
+      <Image src="/Price-board.png" alt="Price Image"  width={260} height={180} />
+       
       </div>
     </div>
   );
@@ -45,21 +34,9 @@ export default Card;
         What Our Clients Say
       </h1>
       <div className="flex justify-center gap-8">
-        <Image
-          src="/client1.png"
-          alt="Client 1"
-          className="w-40 h-auto rounded-lg shadow-lg"
-        />
-        <Image
-          src="/client2.png"
-          alt="Client 2"
-          className="w-40 h-auto rounded-lg shadow-lg"
-        />
-        <Image
-          src="/client.png"
-          alt="Client 3"
-          className="w-40 h-auto rounded-lg shadow-lg"
-        />
+      <Image src="/client1.png" alt="client1"  width={300} height={200} />
+      <Image src="/Client2.png" alt="Client2"  width={300} height={100} />
+      <Image src="/Client.png" alt="Client"  width={300} height={100} />
       </div>
     </div>
   );

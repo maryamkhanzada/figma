@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const Footer = () => {
     return (
       <footer className="bg-[#043873]  text-white py-16 px-8">
@@ -17,10 +18,10 @@ const Footer = () => {
         </div>
   
         {/* Flex Images */}
-        <div className="flex justify-center gap-6 mb-16">
-          <Image src="/apple-black-logo 2.png" alt="apple" className="w-20 h-20" />
-          <Image src="/windows-logo 1.png" alt="windows" className="w-20 h-20" />
-          <Image src="/android-logo 1.png" alt="android" className="w-20 h-20" />
+        <div className="flex justify-center gap-6 ">
+        <Image src="/apple-black-logo 2.png" alt="Apple Black Logo"  width={50} height={50} />
+        <Image src="/windows-logo 1.png" alt="windows-logo" width={50} height={50} />
+        <Image src="/android-logo 1.png" alt="android-logo 1"  width={50} height={50} />
         </div>
         <br />
         <br />
