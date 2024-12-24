@@ -226,7 +226,7 @@ export const Hero3 = () =>{
           </h1>
           <br />
           <p className="text-black mb-6" style={{ width: "656px", height: "60px" }}>
-          The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
+          The app is open source and your notes are saved to an open format, so you will always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
           </p>
           <br />
           <button
